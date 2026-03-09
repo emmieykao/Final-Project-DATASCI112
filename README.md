@@ -1,4 +1,4 @@
-### Food Deserts and Swamps - DATASCI 112 Final Project
+# Food Deserts and Swamps - DATASCI 112 Final Project
 ## File Documentation
 `Dataset_genearation.ipynb`: Our initial data collection and cleaning. We begin with two relatively large datasets, select relevant rows, and 
 merge on county `fips` values.
