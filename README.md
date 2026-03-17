@@ -1,4 +1,4 @@
-# Food Deserts and Swamps - DATASCI 112 Final Project
+# Beyond RFEI: Accessibility-Based Measures Better Predict Diet-Related Health Outcomes - DATASCI 112 Final Project
 ## File Documentation
 ### Preliminary Work
 `dataset_genearation (1).ipynb`: Our data collection and cleaning. We begin with three relatively large datasets, select relevant rows (related to food accessibility, the number of stores in a county and health outcomes), and merge on county `fips` values.
