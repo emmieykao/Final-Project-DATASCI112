@@ -1,0 +1,55 @@
+,outcome,model,formula,n_params,r2,cv_rmse
+0,obesity,baseline,obesity ~ income,2,0.6965786676393864,2.870767387103102
+1,obesity,rfei_linear,obesity ~ rfei,2,0.006370519425815346,5.119238886412712
+2,obesity,rfei_quadratic,obesity ~ rfei + I(rfei**2),3,0.03955641569097901,5.043944051214111
+3,obesity,access_only_pc,obesity ~ access_pc1,2,0.38877457281440286,4.219347611676715
+4,obesity,store_only_pc,obesity ~ store_pc1,2,0.48372083235898256,3.969380790951843
+5,obesity,combined_only_pc,obesity ~ combined_pc1,2,0.519544415397152,3.786436671322136
+6,obesity,rfei_plus_access_linear,obesity ~ access_pc1 + rfei,3,0.396139728151905,4.317547300818825
+7,obesity,rfei_plus_access_quadratic,obesity ~ access_pc1 + rfei + I(rfei**2),4,0.4058888506114393,4.324152589612018
+8,obesity,rfei_plus_store_linear,obesity ~ store_pc1 + rfei,3,0.5150062674660612,4.016958283169848
+9,obesity,rfei_plus_store_quadratic,obesity ~ store_pc1 + rfei + I(rfei**2),4,0.5155246824416011,4.091549136119073
+10,obesity,controls_separate_pc,obesity ~ access_pc1 + store_pc1,3,0.5232104011805927,3.8467590543050987
+11,obesity,rfei_plus_separate_linear,obesity ~ access_pc1 + store_pc1 + rfei,4,0.5313593006637377,3.981178313369701
+12,obesity,rfei_plus_separate_quadratic,obesity ~ access_pc1 + store_pc1 + rfei + I(rfei**2),5,0.5322519091811908,4.036088754290477
+13,obesity,rfei_plus_combined_linear,obesity ~ combined_pc1 + rfei,3,0.5197876023197563,3.942694721340145
+14,obesity,rfei_plus_combined_quadratic,obesity ~ combined_pc1 + rfei + I(rfei**2),4,0.5213166153101692,3.9922281121089505
+15,obesity,raw_access,obesity ~ no_car_low_access + low_income_low_access + low_access,4,0.6739424201976212,3.2566308261366808
+16,obesity,raw_store,obesity ~ convenience + fast_food + grocery + snap + supercenters,6,0.6459849403397048,4.015784014989757
+17,obesity,raw_all,obesity ~ no_car_low_access + low_income_low_access + low_access + convenience + fast_food + grocery + snap + supercenters,9,0.8357715737448964,3.240951609825154
+18,diabetes,baseline,diabetes ~ income,2,0.4658236991966537,1.4629899464119833
+19,diabetes,rfei_linear,diabetes ~ rfei,2,0.00451052078783698,1.9922300620443856
+20,diabetes,rfei_quadratic,diabetes ~ rfei + I(rfei**2),3,0.01976626374846746,2.0336876434716142
+21,diabetes,access_only_pc,diabetes ~ access_pc1,2,0.10519097167200242,1.8781888388346661
+22,diabetes,store_only_pc,diabetes ~ store_pc1,2,0.235199078387051,1.7754190290171366
+23,diabetes,combined_only_pc,diabetes ~ combined_pc1,2,0.1928532318858437,1.7928047995822696
+24,diabetes,rfei_plus_access_linear,diabetes ~ access_pc1 + rfei,3,0.10551777234346271,1.9295297699874254
+25,diabetes,rfei_plus_access_quadratic,diabetes ~ access_pc1 + rfei + I(rfei**2),4,0.11213176699607119,2.017583514921232
+26,diabetes,rfei_plus_store_linear,diabetes ~ store_pc1 + rfei,3,0.25341089744727985,1.774557999469576
+27,diabetes,rfei_plus_store_quadratic,diabetes ~ store_pc1 + rfei + I(rfei**2),4,0.25355262437074677,1.882374180991368
+28,diabetes,controls_separate_pc,diabetes ~ access_pc1 + store_pc1,3,0.23539343083122388,1.7814034906999765
+29,diabetes,rfei_plus_separate_linear,diabetes ~ access_pc1 + store_pc1 + rfei,4,0.26206630982638845,1.7786966421725239
+30,diabetes,rfei_plus_separate_quadratic,diabetes ~ access_pc1 + store_pc1 + rfei + I(rfei**2),5,0.26211224219837503,1.883042377692859
+31,diabetes,rfei_plus_combined_linear,diabetes ~ combined_pc1 + rfei,3,0.19293778057142796,1.8384026024551272
+32,diabetes,rfei_plus_combined_quadratic,diabetes ~ combined_pc1 + rfei + I(rfei**2),4,0.19431536781048875,1.942508868302071
+33,diabetes,raw_access,diabetes ~ no_car_low_access + low_income_low_access + low_access,4,0.7078784979932182,1.146670553733905
+34,diabetes,raw_store,diabetes ~ convenience + fast_food + grocery + snap + supercenters,6,0.36086231814304437,1.9010093473441945
+35,diabetes,raw_all,diabetes ~ no_car_low_access + low_income_low_access + low_access + convenience + fast_food + grocery + snap + supercenters,9,0.7975965616039814,1.5084481911240453
+36,cancer,baseline,cancer ~ income,2,0.1310844369699139,2.556302708635976
+37,cancer,rfei_linear,cancer ~ rfei,2,0.006840946370040957,2.973416925178689
+38,cancer,rfei_quadratic,cancer ~ rfei + I(rfei**2),3,0.0568349144815643,2.9180241781516556
+39,cancer,access_only_pc,cancer ~ access_pc1,2,0.13195069478688737,2.583162415998767
+40,cancer,store_only_pc,cancer ~ store_pc1,2,0.1339403094807592,2.470346201698564
+41,cancer,combined_only_pc,cancer ~ combined_pc1,2,0.17143922617898,2.4688612630260147
+42,cancer,rfei_plus_access_linear,cancer ~ access_pc1 + rfei,3,0.13210663450061166,2.8307026573948777
+43,cancer,rfei_plus_access_quadratic,cancer ~ access_pc1 + rfei + I(rfei**2),4,0.16358022949881756,2.7359149506638505
+44,cancer,rfei_plus_store_linear,cancer ~ store_pc1 + rfei,3,0.1519426925392524,2.7417897301265644
+45,cancer,rfei_plus_store_quadratic,cancer ~ store_pc1 + rfei + I(rfei**2),4,0.17203795639045372,2.732678151285384
+46,cancer,controls_separate_pc,cancer ~ access_pc1 + store_pc1,3,0.15738086468667878,2.5079289906370112
+47,cancer,rfei_plus_separate_linear,cancer ~ access_pc1 + store_pc1 + rfei,4,0.1618873069319532,2.858335482480065
+48,cancer,rfei_plus_separate_quadratic,cancer ~ access_pc1 + store_pc1 + rfei + I(rfei**2),5,0.18364064437496075,2.8058444130801243
+49,cancer,rfei_plus_combined_linear,cancer ~ combined_pc1 + rfei,3,0.17223610812477774,2.7112298766232588
+50,cancer,rfei_plus_combined_quadratic,cancer ~ combined_pc1 + rfei + I(rfei**2),4,0.19322915425815512,2.674512800834778
+51,cancer,raw_access,cancer ~ no_car_low_access + low_income_low_access + low_access,4,0.37248197441273834,2.384730637657841
+52,cancer,raw_store,cancer ~ convenience + fast_food + grocery + snap + supercenters,6,0.32763568404820975,2.719932340306075
+53,cancer,raw_all,cancer ~ no_car_low_access + low_income_low_access + low_access + convenience + fast_food + grocery + snap + supercenters,9,0.6057321960670288,2.8017481311228467

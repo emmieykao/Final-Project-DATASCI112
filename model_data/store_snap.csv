@@ -1,0 +1,7 @@
+,outcome,model,formula,n_params,r2,cv_rmse
+0,obesity,with_snap,obesity ~ convenience + fast_food + grocery + snap + supercenters,6,0.6459849403397048,4.015784014989757
+1,obesity,without_snap,obesity ~ convenience + fast_food + grocery + supercenters,5,0.5446101296092037,3.9831716677675915
+2,diabetes,with_snap,diabetes ~ convenience + fast_food + grocery + snap + supercenters,6,0.36086231814304437,1.9010093473441945
+3,diabetes,without_snap,diabetes ~ convenience + fast_food + grocery + supercenters,5,0.19629106841799504,2.016048254833581
+4,cancer,with_snap,cancer ~ convenience + fast_food + grocery + snap + supercenters,6,0.32763568404820975,2.719932340306075
+5,cancer,without_snap,cancer ~ convenience + fast_food + grocery + supercenters,5,0.19541228022035528,3.006018081034722

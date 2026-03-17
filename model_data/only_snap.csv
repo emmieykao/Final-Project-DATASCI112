@@ -1,0 +1,7 @@
+,outcome,model,formula,n_params,r2,cv_rmse
+0,obesity,only_snap,obesity ~ snap,2,0.3693085018282064,4.199054908498694
+1,obesity,only_rfei,obesity ~ rfei,2,0.006370519425815346,5.119238886412712
+2,diabetes,only_snap,diabetes ~ snap,2,0.2624509808919794,1.8141647102161098
+3,diabetes,only_rfei,diabetes ~ rfei,2,0.00451052078783698,1.9922300620443856
+4,cancer,only_snap,cancer ~ snap,2,0.16707712343817616,2.5156787768203737
+5,cancer,only_rfei,cancer ~ rfei,2,0.006840946370040957,2.973416925178689
